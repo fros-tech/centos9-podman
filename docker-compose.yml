@@ -1,0 +1,14 @@
+services:
+  cos9-1:
+    image: quay.io/fors-admin/centos9
+    container_name: cos9-1
+    hostname: cos9-1
+    restart: unless-stopped
+    tty: true
+  cos9-2:
+    image: quay.io/fros-admin/centos9
+    container_name: cos9-2
+    hostname: cos9-2
+    restart: unless-stopped
+    tty: true
+
